@@ -1,0 +1,76 @@
+/* Reset dasar */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Center halaman */
+.page-center {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;   /* center horizontal */
+  align-items: flex-start;   /* mulai dari atas */
+  padding-top: 40px;         /* jarak dari atas */
+  background-color: #f2f2f2;
+}
+
+/* Card form */
+.form-card {
+  width: 100%;
+  max-width: 480px;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Judul */
+.form-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form jadi vertikal */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label */
+label {
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+/* Input, select, textarea */
+input,
+select,
+textarea {
+  padding: 8px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Textarea */
+textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+/* Tombol */
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #125aa0;
+}
